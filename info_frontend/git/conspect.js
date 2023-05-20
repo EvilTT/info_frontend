@@ -40,7 +40,7 @@
 //! --> --mixed(default) - отменят git commit и git add предыдущего commit'a
 //! --> --hard откатит до прерыдущего коммита (отменив се команды)
 //! --> HEAD~number - откал на кол-во коммитов
-//! --> HEAD - отмена git add 
+//! --> HEAD <filename> - отмена git add 
 //* git restore <filename> - вернет удаленный файл если он был в diff git
 
 //TODO Ветки, коммиты (checkout, branch, stash, merge, rebase) 
