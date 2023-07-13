@@ -1,7 +1,7 @@
 //------------------------------------------------------------------------
 //TODO --------------------------------- Redux -------------------------------
 //!--------------------------------- Базовое понимание -------------------
-//* component => action => store => widdlewares <=> reducer, store => component
+//* component => action => store => middlewares <=> reducer => store => component
 //* Redux оповещает компоненты об изменении store через React context (используя его под капотом)
 //* dispatch action (действие) в store, store вызывает reducer c 2 параметрами: текущий state и action, далее если reducer объеденены через combineReducer то вызывается каждый reducer и результат объединяется в новый state
 //* action = {объект} с указанием типа действия {type: "действие", payload: {Данные}}
